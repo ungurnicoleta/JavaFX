@@ -1,0 +1,104 @@
+ExeStack:
+(v = 5;Print: (v / 3))
+SymTable:
+Out:
+FileTable: 
+Heap: 
+ExeStack:
+v = 5
+Print: (v / 3)
+SymTable:
+Out:
+FileTable: 
+Heap: 
+ExeStack:
+Print: (v / 3)
+SymTable:
+v-->5
+Out:
+FileTable: 
+Heap: 
+ExeStack:
+SymTable:
+v-->5
+Out:
+1
+FileTable: 
+Heap: 
+ID: 1
+ExeStack:
+IF(10) THEN((v = 5;Print: (v / 3)))ELSE(Print: (100))
+SymTable:
+Out:
+FileTable: 
+Heap: 
+
+
+ID: 1
+ExeStack:
+(v = 5;Print: (v / 3))
+SymTable:
+Out:
+FileTable: 
+Heap: 
+
+
+ID: 1
+ExeStack:
+(v = 5;Print: (v / 3))
+SymTable:
+Out:
+FileTable: 
+Heap: 
+
+
+ID: 1
+ExeStack:
+v = 5
+Print: (v / 3)
+SymTable:
+Out:
+FileTable: 
+Heap: 
+
+
+ID: 1
+ExeStack:
+v = 5
+Print: (v / 3)
+SymTable:
+Out:
+FileTable: 
+Heap: 
+
+
+ID: 1
+ExeStack:
+Print: (v / 3)
+SymTable:
+v-->5
+Out:
+FileTable: 
+Heap: 
+
+
+ID: 1
+ExeStack:
+Print: (v / 3)
+SymTable:
+v-->5
+Out:
+FileTable: 
+Heap: 
+
+
+ID: 1
+ExeStack:
+SymTable:
+v-->5
+Out:
+1
+FileTable: 
+Heap: 
+
+
